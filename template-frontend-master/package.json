@@ -1,0 +1,44 @@
+{
+  "name": "template-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4000",
+    "build": "next build",
+    "start": "next start -p 4000"
+  },
+  "dependencies": {
+    "@hookstate/core": "^3.0.7",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "next": "latest",
+    "next-auth": "^3.21.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-reveal": "^1.2.2",
+    "react-scroll": "^1.8.2",
+    "typewriter-effect": "^2.17.0"
+  },
+  "devDependencies": {
+    "@types/next-auth": "^3.15.0",
+    "@types/node": "^15.0.2",
+    "@types/react": "^17.0.5",
+    "@types/react-scroll": "^1.8.2",
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/parser": "^4.22.1",
+    "autoprefixer": "^10.0.4",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-react": "^7.23.2",
+    "postcss": "^8.1.10",
+    "prettier": "^2.0.5",
+    "tailwindcss": "^2.1.1",
+    "typescript": "^4.2.4"
+  }
+}
